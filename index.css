@@ -1,5 +1,36 @@
-div.h1{
+body{
+    background: lightcoral;
+    padding: 30px;
+}
+
+
+.title{
     color: darkblue;
     background: lightblue;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 10px;
+    border: solid 3px;
+    padding: 12px;
+    text-align: center;
+}
+    
+
+li{
+    list-style: none;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(63, 121, 247);
+    color: darkred;
+    margin: 10px;
+    border: solid 3px;
+    padding: 12px;
+}
+
+button{
+    background-color: lightblue;
+    font-size: 24px;
+    width: 500px;
+    margin: 8px;
+    padding: 6px;
+    display: inline;
 }
